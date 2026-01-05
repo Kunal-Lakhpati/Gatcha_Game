@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #mainbox
+        {
+            background-color: aqua;
+            width: 500px ;
+            height: 500px;
+            border: 3px solid black;
+            text-align: center;
+            font-size: 30px;
+            padding: 20px;
+        }
+
+        #b1
+        {
+            background-color: lightgreen;
+            width: 100px;
+            height: 100px;
+            border: 3px solid grey;
+            margin: 20px;
+        }
+
+        #b2
+        {
+            background-color: lightgreen;
+            width: 100px;
+            height: 100px;
+            border: 3px solid grey;
+            margin: 20px;
+        }
+
+        #b3
+        {
+            background-color: lightgreen;
+            width: 100px;
+            height: 100px;
+            border: 3px solid grey;
+            margin: 20px;
+        }
+
+        .boxx
+        {
+            display: inline-block;
+            text-align: center;
+        }
+
+        #butt
+        {
+            background-color: cadetblue;
+        }
+
+        #score
+        {
+            top: 0;
+            right: 0;
+            background-color: #ff0000;
+            color: white;
+            padding: 10px;
+            width: 150px;
+            height: 50px;
+            text-align: center;
+            box-sizing: border-box
+        }
+    </style>
+
+</head>
+<body>
+    <div id="mainbox"><b>Gatcha Game</b>
+        <div id="score">Score:</div>
+        <div>
+        <div id="b1" class="boxx">0</div>
+        <div id="b2" class="boxx">0</div>
+        <div id="b3" class="boxx">0</div>
+        </div>
+        <input id="butt" type="button" value="Spin It !" onclick="displayRandom()">
+
+    </div>
+</body>
+<script src="pract3.js"></script>
+</html>
